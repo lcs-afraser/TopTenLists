@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+let topTenCountries = ["Scotland", "Germany", "France", "Italy", "Switzerland", "Greece", "Brazil", "Egypt", "Japan", "Spain"]
 
+for i in 0...9 {
+    print(topTenCountries[i])
+}
+
+for country in topTenCountries {
+    print(country)
+}
